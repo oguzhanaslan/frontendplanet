@@ -19,8 +19,9 @@ Buraya development ortamının kurulumu ile ilgili basit bir dökümantasyon gel
 
 Projeye katkıda bulunanlar
 
-Oğuzhan Aslan
-Oğuz Kılıç
+- Oğuzhan Aslan
+
+- Oğuz Kılıç
 
 
 
