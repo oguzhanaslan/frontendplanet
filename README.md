@@ -10,11 +10,22 @@ Basit bir şekilde kod standardını belirleyebiliriz. CSS yazarken tab yada 3 b
 
 Uygulama geliştirme ortamı kısaca ekip halinde projeyi hayata geçirebilmemiz için gerekli uygulama ve ortamları içerir. Sitenin inşaa edileceği geliştirme ortamı aşağıda ki teknolojilerden oluşmaktadır.
 
+#####  Front-End #####
+
+
 - Git
 - Gulp
 - Stylus
+- Require.js
 - Bootstrap
 - JQuery
+
+
+##### Back-End #####
+
+
+- Wordpress
+
 
 ### Deployment ###
 
@@ -38,6 +49,8 @@ Projeye katkıda bulunanlar
 - Oğuzhan Aslan
 
 - Oğuz Kılıç
+
+- Vedat Mahir Yılmaz
 
 
 
