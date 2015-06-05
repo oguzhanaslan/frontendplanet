@@ -34,8 +34,8 @@ Deployment açıklaması [Oğuzhan Aslan] tarafından yazılacaktır.
 ###### Kurulum
 
 - Servis şifreleri Trello'da bulunmaktadır. 
-- Hiçbir şekilde ftp'ye direkt erişim yapmamaya özen gösterelim. Git üzerinden yürütelim her çalışmayı.
-- Projeyi clone ettikten sonra, yapacağımız iç işin branch açalım. Tek branch üzerinden yüremek mantıklı değil. 
+- Hiçbir şekilde ftp'ye direkt erişim yapmamaya özen gösterelim. Git üzerinden yürütelim her çalışmayı. Git ile Ftp Server senkron durumda çalışıyor. Master branch'ine yapacağınız push'lar otomatik ftp'ye gönderiliyor.
+- Projeyi clone ettikten sonra, yapacağımız iç işin branch açalım. Tek branch üzerinden yürümek mantıklı değil. 
 - Her feature için ayrı bir branch açabiliriz. Ardından master'a merge ederiz. Buna birlikte karar verelim(bunun için issue açacağım ki herkes fikrini belirtsin).
 - usermodal-feature, usermodal-update, -usermodal-refactor, -usermodal-amend, -usermodal-fix -usermodal-remove isimlendirme standardını kullanabiliriz. 
 
