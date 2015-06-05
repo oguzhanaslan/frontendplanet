@@ -54,9 +54,13 @@ Buraya development ortamının kurulumu ile ilgili basit bir dökümantasyon gel
 
 Projeye katkıda bulunanlar
 
-- Oğuzhan Aslan
+Katkı veren isimler alfabetik düzene göre sıralanmıştır. Lütfen yeni ekleme yaparken bu düzeni sağlamaya özen gösterelim.
+
+- Alican Kahramaner
 
 - Oğuz Kılıç
+
+- Oğuzhan Aslan
 
 - Vedat Mahir Yılmaz
 
