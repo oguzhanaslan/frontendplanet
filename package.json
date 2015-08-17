@@ -11,6 +11,7 @@
     "browser-sync": "^2.8.2",
     "del": "*",
     "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
     "gulp-concat": "*",
     "gulp-minify-css": "*",
     "gulp-notify": "*",

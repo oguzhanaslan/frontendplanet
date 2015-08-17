@@ -22,7 +22,7 @@ MAIN = {
 
 $(function() {
 
-    $('body').html('<h1 style="color:Red">ATATÜRK</h1>');
+
 
 
     MAIN.helper();

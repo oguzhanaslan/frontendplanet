@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence'),
     concat = require('gulp-concat'),
     minifyCss = require('gulp-minify-css'),
+    autoprefixer = require('gulp-autoprefixer'),
     browserSync = require('browser-sync').create();
 
 var config = {
@@ -114,6 +115,10 @@ gulp.task('merge-css', function () {
             return 'Error: ' + error.message;
         }))
         .pipe(concat('app.min.css'))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(gulp.dest(config.public.cssPath));
 });
 
