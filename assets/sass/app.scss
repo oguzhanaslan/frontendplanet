@@ -1,0 +1,17 @@
+html {
+  position: relative;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  margin-top: -240px;
+  left: 50%;
+  margin-left: -239px;
+  height: 347px;
+  text-align: center;
+}
