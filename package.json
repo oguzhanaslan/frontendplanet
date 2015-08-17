@@ -1,0 +1,23 @@
+{
+  "name": "Frontendplanet",
+  "version": "1.0.0",
+  "description": "Frontend planet",
+  "keywords": [
+    "lahmacun",
+    "sex",
+    "rakı"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-ruby-sass": "*",
+    "gulp-concat": "*",
+    "gulp-notify": "*",
+    "del": "*",
+    "gulp-uglify": "*",
+    "gulp-minify-css": "*",
+    "run-sequence": "*"
+  },
+  "engines": {
+    "node": "~0.12.7"
+  }
+}

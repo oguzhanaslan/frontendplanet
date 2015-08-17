@@ -27,9 +27,16 @@ Uygulama geliştirme ortamı kısaca ekip halinde projeyi hayata geçirebilmemiz
 - Wordpress
 
 
-### Deployment ###
+### Local Deployment ###
 
-Deployment açıklaması [Oğuzhan Aslan] tarafından yazılacaktır.
+
+Sistem gulp ile inşaa edildi. 3.party kütüphaneler bower'dan ve npm'den geliyor.
+ - npm install komutu ile tüm kurulumlar gerçekleştirilebiliyor.
+ - ardından gulp komutu ile dosyalar birleşiyor.
+ - bizim yazacağımız sass ve js dosyaları /assets klasörü içerisinde bulunuyor.
+ - hazır kütüphanalerin hpesi /bower_compontent altında bulunuyor. gulp bunları bulup birleştiriyor.
+ - birleştirilen herşey /public klasörü altında ilgili klasöründe yaratılıyor.
+
 
 ###### Kurulum
 
