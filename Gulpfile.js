@@ -5,7 +5,8 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     runSequence = require('run-sequence'),
     concat = require('gulp-concat'),
-    minifyCss = require('gulp-minify-css');
+    minifyCss = require('gulp-minify-css'),
+    browserSync = require('browser-sync').create();
 
 var config = {
     jsPath: './assets/js',
@@ -120,19 +121,29 @@ gulp.task('build-css', function() {
     return runSequence('vendor-css', 'app-css', 'merge-css');
 });
 
+gulp.task('browser-sync', function() {
+    browserSync.init(["./"], {
+        server: {
+            baseDir: "./"
+        }
+    });
+});
+
+
 gulp.task('watch', function() {
-    gulp.watch(config.cssPath + '**/*.scss', ['build-css']);
+    gulp.watch(config.sassPath + '**/*.scss', ['build-css']);
     gulp.watch(config.jsPath + '**/*.js', ['build-scripts']);
 });
 
+
+
 gulp.task('clean', function(cb) {
     del([
-        config.public.cssPath + '/*', config.public.jsPath + '/*',
-        config.public.fontPath + '/*', config.tempPath + '/',
-        config.sassCachePath + '/'
+        config.tempPath + '/', config.sassCachePath + '/'
     ], cb);
 });
 
-gulp.task('default', function() {
-    return runSequence(['clean', 'build-fonts', 'build-css', 'build-scripts']);
+gulp.task('default', ['clean','build-fonts', 'build-css', 'build-scripts', 'browser-sync'], function () {
+    gulp.watch(config.sassPath + '**/*.scss', ['build-css']);
+    gulp.watch(config.jsPath + '**/*.js', ['build-scripts']);
 });

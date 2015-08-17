@@ -8,13 +8,14 @@
     "rakı"
   ],
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-ruby-sass": "*",
-    "gulp-concat": "*",
-    "gulp-notify": "*",
+    "browser-sync": "^2.8.2",
     "del": "*",
-    "gulp-uglify": "*",
+    "gulp": "^3.9.0",
+    "gulp-concat": "*",
     "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-uglify": "*",
     "run-sequence": "*"
   },
   "engines": {
