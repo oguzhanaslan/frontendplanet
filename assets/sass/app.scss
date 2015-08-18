@@ -1,6 +1,10 @@
+
+// font-family: 'Catamaran', sans-serif;
+
 html {
   position: relative;
   height: 100%;
+  font-family: 'Catamaran', sans-serif;
 }
 
 img {
@@ -14,4 +18,35 @@ img {
   margin-left: -239px;
   height: 347px;
   text-align: center;
+}
+
+
+
+.navbar-default {
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0 0 4px rgba(0,0,0,0.15);
+}
+
+.navbar-nav > li > a {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar-nav > li > a, .navbar-brand {
+  padding-top:25px !important;
+  padding-bottom:0 !important;
+  height: 70px;
+}
+.navbar {min-height:70px !important;}
+
+.navbar-form { padding-top: 10px;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background: transparent;
+  font-weight: bold;
+}
+.site_logo {
+  padding-top: 10px;
+  margin-right: 50px;
+  display: block;
 }
